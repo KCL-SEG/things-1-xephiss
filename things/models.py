@@ -1,3 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
 
-# Create your models here.
+
+class Thing():
+    name = models.CharField()
+    description = models.TextField()
+    quatity = models.IntegerField()
