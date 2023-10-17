@@ -16,5 +16,4 @@ class Thing(AbstractUser):
     )
     quantity = models.IntegerField(
         unique=False,
-        max_length=100,
     )
